@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled, { useTheme } from "styled-components";
-import { Link as LinkR } from "react-router-dom";
+import { Link as LinkR } from "react-router-dom"
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
+
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.card_light};

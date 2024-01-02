@@ -1,6 +1,50 @@
+import html from "../Image/html.png"
+import bmiCalc from "../Image/BMI-Calculator.png"
+import basicCalc from "../Image/Basic-Calculator.png"
+import BlogMe from "../Image/BlogMe.png"
+import Bloggr from "../Image/Bloggr.png"
+import Blogify from "../Image/Blogify.png"
+import Calendar from "../Image/Calendar.png"
+import Countdown from "../Image/Countdown-Timer.png"
+import Currency from "../Image/Currency-converter.png"
+import Cybrary from "../Image/Cybrary.png"
+import Dashboard from "../Image/Dashboard.png"
+import Food from "../Image/Food-Survey-Form.png"
+import Icancook from "../Image/I-Can-Cook.png"
+import IBM from "../Image/IBM.png"
+import Loan from "../Image/Loan-calculator.png"
+import Pixel from "../Image/Pixel-Art-Generator.png"
+import Portfolio from "../Image/Portfolio.png"
+import Techipedia from "../Image/Techipedia.png"
+import News from "../Image/The-Daily-News.png"
+import Travel from "../Image/Travel-World.png"
+import aws from "../Image/aws.png"
+import css from "../Image/css.png"
+import dam from "../Image/dam.jpg"
+import express from "../Image/express-js.png"
+import gcp from "../Image/gcp.png"
+import git from "../Image/git.png"
+import github from "../Image/github.jpg"
+import insomnia from "../Image/insomnia.png"
+import js from "../Image/js.png"
+import kyndryl from "../Image/kyndryl.jpg"
+import mongoDB from "../Image/mongoDB.png"
+import node from "../Image/node-js.jpg"
+import postman from "../Image/postman.png"
+import reactrouter from "../Image/react-router.png"
+import react from "../Image/react.png"
+import redux from "../Image/redux.png"
+import street from "../Image/street-feet.png"
+import verzeo from "../Image/verzeo.png"
+import vite from "../Image/vite.png"
+import vscode from "../Image/vscode.png"
+import vmware from "../Image/vmware.jpeg"
+import jain from "../Image/jgi.avif"
+import sjs from "../Image/sjs.jpg"
+
 export const Bio = {
   name: "Damian Prakash Murmu",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  roles: ["Full Stack Developer!", "Frontend Developer!", "Programmer!"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/DamianDev11",
@@ -17,32 +61,37 @@ export const skills = [
     skills: [
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: html,
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          css,
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          js,
       },
       {
         name: "React Js",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          react,
       },
       {
         name: "React Router",
         image:
-          "https://www.codesmith.io/hs-fs/hubfs/Blog%20Images/Blog%20Photos/react-router-logo.png?width=600&name=react-router-logo.png",
+          reactrouter,
       },
 
       {
         name: "Vite",
-        image: "https://vitejs.dev/logo-with-shadow.png",
+        image: vite,
+      },
+      {
+        name: "Redux Toolkit",
+        image:
+          redux,
       },
     ],
   },
@@ -51,18 +100,18 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: node,
       },
       {
         name: "Express Js",
         image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+          express,
       },
 
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          mongoDB,
       },
     ],
   },
@@ -72,12 +121,12 @@ export const skills = [
       {
         name: "GCP-Cloud Digital Leader",
         image:
-          "https://i0.wp.com/shuvankar.com/wp-content/uploads/2022/09/GCP-ACE_Logo.png?fit=520%2C520&ssl=1",
+          gcp,
       },
       {
         name: "AWS Certified Cloud Practitioner",
         image:
-          "https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+          aws,
       },
       {
         name: "ITIL® 4 Foundation",
@@ -102,23 +151,33 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          git,
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          github,
       },
 
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          vscode,
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          postman,
+      },
+      {
+        name: "Insomnia",
+        image:
+          insomnia,
+      },
+      {
+        name: "VMWare Workstation",
+        image:
+        vmware,
       },
     ],
   },
@@ -127,7 +186,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "company logo",
+    doc: "https://www.linkedin.com/posts/damianprakashmurmu_bombardier-activity-6916860589046738944-lDPU?utm_source=share&utm_medium=member_desktop",
     role: "Associate, Systems Administration",
     company: "Kyndryl India Private Limited",
     date: "September 2021 - Present",
@@ -138,12 +197,12 @@ export const experiences = [
       "Microsoft IIS",
       "SSL cetificate"
     ],
-    doc: "",
+    img: kyndryl,
   },
 
   {
     id: 1,
-    img: "company logo",
+    doc: "https://www.linkedin.com/posts/damianprakashmurmu_ibm-blockchain-essentials-v2-was-issued-by-activity-6848793136290947072-aXBG?utm_source=share&utm_medium=member_desktop",
     role: "Associate Technical Engineer/NOC Engineer",
     company: "IBM India Private Limited",
     date: "August 2020 - September 2021",
@@ -153,11 +212,11 @@ export const experiences = [
       "Windows System Admin",
       "Virtualization"
     ],
-    doc: "https://www.linkedin.com/posts/damianprakashmurmu_windows-server-2012-certification-activity-6743581316891099136-9biL?utm_source=share&utm_medium=member_desktop",
+    img: IBM,
   },
   {
     id: 2,
-    img: "company logo",
+    doc: "https://www.linkedin.com/posts/damianprakashmurmu_verzeo-internshipprogram-microsoftpartners-activity-6742795563147804672--lG6?utm_source=share&utm_medium=member_desktop",
     role: "Cyber Security Intern",
     company: "Verzeo",
     date: "June 2020 - August 2021",
@@ -174,14 +233,14 @@ export const experiences = [
       "Gsuite Toolbox",
       "PGP",
     ],
-    doc: "https://media.licdn.com/dms/image/C4E22AQH3CgZ_eY6vBA/feedshare-shrink_2048_1536/0/1607607735830?e=1700697600&v=beta&t=675FL65AQxEEg5HtPDP0iDBtVUke4mAE-oEZstA8m3k",
+    img: verzeo,
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZ9TzE21iDyWxk4UQB0LneOkxINfA6SAhGHlQQn8EKBVbnnQTrvPE4fV0luGcDRxN34Q&usqp=CAU",
+    img: jain,
     school: "JAIN UNIVERSITY - SCHOOL OF ENGINEERING AND TECHNOLOGY, Bangalore",
     date: "Aug 2016 - Aug 2020",
     grade: "7.483 CGPA",
@@ -190,7 +249,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://sjb.campussoft.in/Images/Logo2.jpg  ",
+    img: sjs,
     school: "ST. JOSEPH'S SCHOOL",
     date: "April 2016",
     grade: "",
@@ -199,7 +258,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://sjb.campussoft.in/Images/Logo2.jpg",
+    img: sjs,
     school: "ST. JOSEPH'S SCHOOL",
     date: "April 2014",
     grade: "",
@@ -210,13 +269,12 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Blog-Chef",
-    date: "Oct 2023",
+    id: 0,
+    title: "Blogify",
+    date: "Dec 2023",
     description:
-      "Blog Application",
-    image:
-      "https://media.licdn.com/dms/image/D562DAQFHa94NvMrHeA/profile-treasury-image-shrink_800_800/0/1698522145699?e=1699171200&v=beta&t=wD259VeUU6co4aIj-m8HAFbTPePuW7k4XPjSXDJIFUU",
+      "Full-Fledged Blog Application",
+    image:Blogify,
     tags: [
       "Eslint",
       "Prettier",
@@ -224,23 +282,24 @@ export const projects = [
       "MongoDb",
       "Node Js",
       "Express Js",
+      "Fetch API"
     ],
-    category: "web app",
-    github: "https://github.com/DamianDev11/blog-chef",
-    webapp: "https://blog-chef.onrender.com/",
+    category: "mern",
+    github: "https://github.com/DamianDev11/Blogify-frontend-backend",
+    webapp: "https://blogify-460k.onrender.com",
   },
   {
-    id: 0,
-    title: "BlogMe",
+    id: 1,
+    title: "Post-It",
     date: "Oct 2023",
     description:
       "Full Stack Blog Application with enhanced features",
     image:
-      "https://media.licdn.com/dms/image/D562DAQFRJHPCrm3LZg/profile-treasury-image-shrink_800_800/0/1698520044057?e=1699171200&v=beta&t=LLWxUhPrT0YWjjS3cyZSCt_H5XLKdlnIRm8MRBvsFlk",
+      BlogMe,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "React-router-dom","AXIOS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    category: "mern",
+    github: "https://github.com/DamianDev11/blog-chef-2.0",
+    webapp: "https://github.com/DamianDev11/blog-chef-2.0",
     member: [
       {
         name: "Damian Prakash Murmu",
@@ -251,108 +310,238 @@ export const projects = [
     ],
   },
   {
-    id: 1,
-    title: "BlogIt",
+    id: 2,
+    title: "Bloggr(Not Deployed)",
     date: "Oct 2023",
     description:
       "Simple Blog app",
     image:
-    "proj image",
+    Bloggr,
     tags: [
       "React Js",
       "MongoDb",
       "Node Js",
       "Express Js",
     ],
-    category: "web app",
+    category:"mern",
     github: "https://github.com/DamianDev11",
-    webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://github.com/DamianDev11",
   },
   {
-    id: 2,
-    title: "Project1",
+    id: 3,
+    title: "Basic Calculator",
     date: "Jan 2023 - Mar 2023",
     description:
-    "proj desc",
+    "Basic Calculator",
     image:
-      "project image",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/DamianDev11",
-    webapp: "https://brain-tumor.netlify.app/",
+    basicCalc,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Calculator",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Calculator",
     member: [
       {
         name: "Damian Prakash Murmu",
-        img: "Damian Prakash Murmu image",
-        linkedin: "Damian Prakash Murmu linkedIn URL",
+        img: dam,
+        linkedin: "https://www.linkedin.com/in/damianprakashmurmu/",
         github: "https://github.com/DamianDev11",
       }
     ],
   },
   {
-    id: 3,
-    title: "Project2",
+    id: 4,
+    title: "BMI Calculator",
     date: "Dec 2021 - Apr 2022",
     description:
-    "proj desc",
+    "BMI Calculator",
     image:
-      "project image",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/DamianDev11",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Project3",
-    date: "Jun 2023 - Jul 2023",
-    description:
-    "proj desc",
-    image:
-      "project image",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/DamianDev11",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Project4",
-    date: "Jul 2021",
-    description:
-    "proj desc",
-    image:
-      "project image",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/DamianDev11",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+      bmiCalc,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/BMI%20Calculator",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/BMI%20Calculator",
   },
   {
     id: 5,
-    title: "Project5",
-    date: "Jun 2021",
+    title: "Calendar",
+    date: "Jun 2023 - Jul 2023",
     description:
-      "proj desc",
+    "Calendar",
     image:
-      "project image",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/DamianDev11",
-    webapp: "https://rishav-react-todo.netlify.app/",
+      Calendar,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Calendar",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Calendar",
   },
   {
     id: 6,
-    title: "Project6",
+    title: "Countdown Timer",
+    date: "Jul 2021",
+    description:
+    "Interactive UI Countdown Timer",
+    image:
+    Countdown,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Countdown%20Timer",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Countdown%20Timer",
+  },
+  {
+    id: 7,
+    title: "Currency Converter",
     date: "Jun 2021",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "Currency Converter",
     image:
-      "project image",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
+      Currency,
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "js",
     github: "https://github.com/DamianDev11",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Currency%20Converter",
+  },
+  {
+    id: 8,
+    title: "Cybrary",
+    date: "Jun 2021",
+    description:
+      "An-library",
+    image:
+      Cybrary,
+    tags: ["React Js", "API", "Axios","MongoDB", "Node JS"],
+    category: "mern",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11/Cybrary",
+  },
+  {
+    id: 9,
+    title: "Dashboard",
+    date: "Jun 2021",
+    description:
+      "An attractive dashboard for users and admins",
+    image:
+      Dashboard,
+    tags: ["HTML","CSS","Javascript"],
+    category: "html css",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Admin%20Dashboard",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Admin%20Dashboard",
+  },
+  {
+    id: 10,
+    title: "Food Survey",
+    date: "Jun 2021",
+    description:
+      "Food Survey Form",
+    image:
+      Food,
+    tags: ["HTML","CSS"],
+    category: "html css",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
+  },
+  {
+    id: 11,
+    title: "ICanCook",
+    date: "Jun 2021",
+    description:
+      "Cooking Website",
+    image:
+      Icancook,
+    tags: ["HTML","CSS","JS","React"],
+    category: "mern",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
+  },
+  {
+    id: 12,
+    title: "Loan Calculator",
+    date: "Jun 2021",
+    description:
+      "Loan Calculator",
+    image:
+      Loan,
+    tags: ["HTML","CSS","JS"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Loan-calculator",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Loan-calculator",
+  },
+  {
+    id: 13,
+    title: "Pixel-Art-Generator",
+    date: "Jun 2021",
+    description:
+      "Pixel-Art-Generator",
+    image:
+      Pixel,
+    tags: ["HTML","CSS","JS"],
+    category: "js",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Pixel%20Art%20Generator",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Pixel%20Art%20Generator",
+  },
+  {
+    id: 14,
+    title: "Portfolio",
+    date: "Jun 2021",
+    description:
+      "Portfolio",
+    image:
+      Portfolio,
+    tags: ["HTML","CSS","JS","React","Nextjs"],
+    category: "mern",
+    github: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Pixel%20Art%20Generator",
+    webapp: "https://github.com/DamianDev11/html-css-js-mini-projects/tree/main/Pixel%20Art%20Generator",
+  },
+  {
+    id: 15,
+    title: "Street Feet",
+    date: "Jun 2021",
+    description:
+      "Real Estate Website",
+    image:
+      street,
+    tags: ["HTML","CSS","JS"],
+    category: "html css",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
+  },
+  {
+    id: 16,
+    title: "Techipedia",
+    date: "Jun 2021",
+    description:
+      "Tech Website",
+    image:
+      Techipedia,
+    tags: ["HTML","CSS"],
+    category: "html css",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
+  },
+  {
+    id: 17,
+    title: "The Daily News",
+    date: "Jun 2021",
+    description:
+      "News Website",
+    image:
+      News,
+    tags: ["HTML","CSS","JS"],
+    category: "js",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
+  },
+  {
+    id: 18,
+    title: "Travel World",
+    date: "Jun 2021",
+    description:
+      "Travel Website",
+    image:
+      Travel,
+    tags: ["HTML","CSS","JS"],
+    category: "html css",
+    github: "https://github.com/DamianDev11",
+    webapp: "https://github.com/DamianDev11",
   }
 ];
 

@@ -166,8 +166,8 @@ const ResumeButton = styled.a`
     background:hsla(271,100%,50%,1);
     background:linear-gradient(225deg,hsla(271,100%,50%,1)0%,hsla(294,100%,50%,1)100%);
     background:-moz-linear-gradient(225deg,hsla(271,100%,50%,1)0%,hsla(294,100%,50%,1)100%);
-    background:-webkit-linear-gradient(225deg,hsla(271,100%,50%,1)0%,hsla(294,100%,50%,1)100%); 
-    box-shadow:20px 20px 60px #1F2634,-20px -20px 60px #1F2634 
+    background:-webkit-linear-gradient(225deg,hsla(271,100%,50%,1)0%,hsla(294,100%,50%,1)100%);
+    box-shadow:20px 20px 60px #1F2634,-20px -20px 60px #1F2634
     &:hover{
         transform:scale(1.05);
         transition:all 0.4s ease-in-out;
@@ -175,6 +175,7 @@ const ResumeButton = styled.a`
         filter:brightness(1);
     }
 `;
+
 
 const Image = styled.img`
   width: 100%;
@@ -221,7 +222,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="_blank">
+            <ResumeButton href="https://www.linkedin.com/in/damianprakashmurmu/" target="_blank">
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
